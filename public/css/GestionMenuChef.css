@@ -1,0 +1,34 @@
+.principale-mf {
+    background-color: #fff;
+    border-radius: 7px;
+    padding-bottom: 1px;
+}
+
+.principale-mf h6 {
+    font-weight: bold;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+
+/********************************************************************/
+
+.bouton-mf a {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.tableau-fm .edition-fm {
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.tableau-fm .body-mf {
+    background-color: white ! important;
+}
+
+.tableau-fm .tableau-mf {
+    border-radius: 25px;
+    text-align: center;
+}

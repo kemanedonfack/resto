@@ -1,0 +1,160 @@
+/* début du code css barre de recherche */
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 40px;
+    background-color: #D5D7DF;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+
+.search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 500px;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+
+@media (max-width: 575px) {
+  .logo{
+    display: none !important;
+  }
+}
+
+
+@media (max-width: 470px) {
+
+  .fa-3x {
+    margin-top: 10px !important;
+    font-size: 35px;
+  }
+  .logo{
+    display: none !important;
+  }
+  
+  .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+  }
+}
+
+    
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+}
+
+/* fin du code css barre de recherche */
+
+/* debut du code css barre de menu */
+
+
+.sidepanel {
+    height: 100%; /* spécifié la taille de la barre de menu */
+    width: 0; /* 0 la taille - change avec le javascript */
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F7F7F7; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 15px;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* position et style du bouton de fermeture */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .sidepanelactive{
+    background-color: #5C6BB2;
+    color: white !important;
+  }
+
+/* fin du code css barre de menu */
+
+/* début code de la partie menu */
+
+.back-menu{
+  background-image: url('../images/back-menu.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.costum-card{
+  background-color: rgba(000, 000, 000, 0.5);
+  border-radius: 25px;
+}
+.costum-card .titre{
+  background-color: #E8DBDB;
+  color: black;
+  text-align: center;
+  margin: 0px 10px;
+  padding: 8px 8px;
+  border-radius: 20px;
+}
+.costum-card img{
+  vertical-align: middle;
+  height: 200px;
+  border-radius: 50%;
+}
+.btn-succes{
+  background-color: #0F881F;
+  color: white;
+  text-align: center;
+  padding: 8px 8px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.prix{
+  position: absolute;
+  right: 8%;
+  background-color: #FF4747;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 20px;
+}
+.back2{
+    background-color: #f0f0f07a;
+    border-radius: 25px;
+} 
+/* fin code de la partie menu */
+
+/** code de la page de connexion **/
+
+.backflou{
+  background-color: rgba(000, 000, 000, 0.5) !important;
+}
